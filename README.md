@@ -61,19 +61,9 @@ Setup
 -----
 
 1.  **Install Dependencies**
-
-    bash
-
-    CopyEdit
-
     `npm install express mongoose bullmq nodemailer dotenv`
 
 2.  **Create `.env` File**
-
-    env
-
-    CopyEdit
-
     `HOST=smtp.yourprovider.com
     PORT=465
     SMTP_USER=your_username
@@ -82,21 +72,13 @@ Setup
     MONGODB_URI=your_mongodb_connection_string
     REDIS_URL=your_redis_connection_url`
 
-3.  **Run Services**
+4.  **Run Services**
 
     -   Start the API server:
-
-        bash
-
-        CopyEdit
 
         `npm start`
 
     -   Start the reminder worker:
-
-        bash
-
-        CopyEdit
 
         `node worker.js`
 
@@ -131,10 +113,3 @@ Tech Stack
 -   **Nodemailer** -- Email delivery
 
 -   **Dotenv** -- Environment configuration
-
-* * * * *
-
-License
--------
-
-MIT
