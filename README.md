@@ -64,6 +64,7 @@ Setup
     `npm install express mongoose bullmq nodemailer dotenv`
 
 2.  **Create `.env` File**
+
     `HOST=smtp.yourprovider.com
     PORT=465
     SMTP_USER=your_username
